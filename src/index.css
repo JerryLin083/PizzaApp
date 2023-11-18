@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-rootBG relative min-h-screen pb-20 bg-cover bg-no-repeat font-RobotoMono text-stone-200;
+}
+
+@layer base {
+  input {
+    @apply w-full h-12 px-10 mt-12 rounded-md bg-stone-800 
+           border border-stone-500 focus:outline-none focus:border-yellow-500
+           disabled:bg-stone-600 disabled:cursor-not-allowed;
+  }
+}
+
+@layer components {
+  .backButton {
+    @apply px-4 py-2 rounded-md border-2 border-stone-200 hover:bg-stone-700 transition-colors duration-500;
+  }
+  .signUpButton {
+    @apply px-2 py-2 rounded-md duration-500 bg-yellow-600 hover:bg-yellow-700;
+  }
+  .orderButton {
+    @apply px-4 py-3 rounded-md duration-500 font-semibold tracking-widest 
+         hover:bg-green-700 bg-green-600 text-stone-200;
+  }
+}
+
+@layer utilities {
+  .flexBetween {
+    @apply flex justify-between items-center;
+  }
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+  .padding {
+    @apply px-10 lg:px-20 py-4 lg:py-8;
+  }
+  .paddingX {
+    @apply px-10 lg:px-20;
+  }
+  .paddingY {
+    @apply py-4 lg:py-8;
+  }
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+
+.loader {
+  width: 45px;
+  aspect-ratio: 0.75;
+  --c: no-repeat linear-gradient(theme(colors.stone.400) 0 0);
+  background: var(--c) 0% 50%, var(--c) 50% 50%, var(--c) 100% 50%;
+  background-size: 20% 50%;
+  animation: loading 1s infinite linear;
+}
+
+@keyframes loading {
+  20% {
+    background-position: 0% 0%, 50% 50%, 100% 50%;
+  }
+  40% {
+    background-position: 0% 100%, 50% 0%, 100% 50%;
+  }
+  60% {
+    background-position: 0% 50%, 50% 100%, 100% 0%;
+  }
+  80% {
+    background-position: 0% 50%, 50% 50%, 100% 100%;
+  }
+}
