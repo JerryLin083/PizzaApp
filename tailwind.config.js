@@ -11,10 +11,10 @@ export default {
       },
       backgroundImage: {
         rootBG: "url('../public/black_marble.jpg')",
-        homeBG: "url('./src/data/image/pizza_bg_black.jpg')",
-        restaurant: "url('./src/data/image/restaurant.png')",
-        restaurant2: "url('./src/data/image/restaurant-2.jpg')",
-        aboutPizza: "url('./src/data/image/about-pizza-cover.jpeg')",
+        homeBG: "url('../../src/data/image/pizza_bg_black.jpg')",
+        restaurant: "url('../../src/data/image/restaurant.png')",
+        restaurant2: "url('../../src/data/image/restaurant-2.jpg')",
+        aboutPizza: "url('../../src/data/image/about-pizza-cover.jpeg')",
       },
       backgroundColor: {
         transparent: "rgba(0,0,0,0.6)",

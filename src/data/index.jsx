@@ -15,9 +15,30 @@ import {
   FaGooglePay,
 } from "react-icons/fa";
 
+//services image
 import organicFood from "./image/pizza-1.jpg";
 import expressDelivery from "./image/pizza-7.jpg";
 import unforgetableTaste from "./image/pizza-16.jpg";
+
+//meals image
+import margherita from "./image/Margherita.jpg";
+import pepperoni from "./image/Pepperoni.jpg";
+import cheese from "./image/Cheese.jpg";
+import veggie from "./image/Veggie.jpg";
+import meat from "./image/Meat.jpg";
+import BBQChicken from "./image/BBQ_Chicken.jpg";
+
+//about pic1
+import wineAndTable from "./image/about-wine.jpeg";
+import pizza from "./image/about-pizza.jpeg";
+import cutting from "./image/about-cutting.jpeg";
+import restaurant from "./image/about-restaurant.jpeg";
+
+//about pic2
+import reception from "./image/about-reception.jpeg";
+import bar from "./image/about-bar.jpeg";
+import server from "./image/about-server.jpeg";
+import fineDish from "./image/about-fine-dish.jpg";
 
 export const links = [
   { title: "Home", link: "/" },
@@ -53,42 +74,42 @@ export const meals = [
     description:
       "Deceptively simple, the Margherita pizza is made with basil, fresh mozzarella, and tomatoes. There’s a reason it’s an Italian staple and one of the most popular types of pizza in the country.",
     price: 12,
-    image: "./src/data/image/Margherita.jpg",
+    image: margherita,
   },
   {
     name: "Pepperoni",
     description:
       "There’s a reason this is one of the most popular types of pizza. Who doesn’t love biting into a crispy, salty round of pepperoni?",
     price: 14,
-    image: "./src/data/image/Pepperoni.jpg",
+    image: pepperoni,
   },
   {
     name: "Cheese",
     description:
       "It should be no shocker that a classic is the statistical favorite. Cheese pizza is one of the most popular choices. It will always be a simple, unadorned masterpiece on its own.",
     price: 10,
-    image: "./src/data/image/Cheese.jpg",
+    image: cheese,
   },
   {
     name: "Veggie",
     description:
       "When you want to jazz up your cheese pizza with color and texture, veggies are the perfect topping. And you’re only limited by your imagination.",
     price: 15,
-    image: "./src/data/image/Veggie.jpg",
+    image: veggie,
   },
   {
     name: "Meat",
     description:
       "If pepperoni just isn’t enough, and you’re looking for a pie with a bit more heft, a meat pizza is a perfect and popular choice.",
     price: 15,
-    image: "./src/data/image/Meat.jpg",
+    image: meat,
   },
   {
     name: "BBQ Chicken",
     description:
       "If you love BBQ chicken and you love pizza, why not put them together? This has long been a cult favorite of sports fans and college kids.",
     price: 15,
-    image: "./src/data/image/BBQ_Chicken.jpg",
+    image: BBQChicken,
   },
 ];
 
@@ -181,37 +202,37 @@ export const pay = [
 export const aboutPics1 = [
   {
     name: "wineAndTable",
-    url: "./src/data/image/about-wine.jpeg",
+    url: wineAndTable,
   },
   {
     name: "pizza",
-    url: "./src/data/image/about-pizza.jpeg",
+    url: pizza,
   },
   {
     name: "cutting",
-    url: "./src/data/image/about-cutting.jpeg",
+    url: cutting,
   },
   {
     name: "restaurant",
-    url: "./src/data/image/about-restaurant.jpeg",
+    url: restaurant,
   },
 ];
 
 export const aboutPics2 = [
   {
     name: "reception",
-    url: "./src/data/image/about-reception.jpeg",
+    url: reception,
   },
   {
     name: "bar",
-    url: "./src/data/image/about-bar.jpeg",
+    url: bar,
   },
   {
     name: "server",
-    url: "./src/data/image/about-server.jpeg",
+    url: server,
   },
   {
     name: "fineDish",
-    url: "./src/data/image/about-fine-dish.jpg",
+    url: fineDish,
   },
 ];
