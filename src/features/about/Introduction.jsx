@@ -4,7 +4,7 @@ import SubTitle from "../ui/SubTitle";
 import SubText from "../ui/SubText";
 import ListPattern from "../ui/ListPattern";
 import { aboutPics1 } from "../../data";
-import PicCard from "./picCard";
+import PicCard from "./PicCard";
 
 const Introduction = () => {
   return (
