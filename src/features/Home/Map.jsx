@@ -1,18 +1,18 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 
 import "leaflet/dist/leaflet.css";
-// import icon from "leaflet/dist/images/marker-icon.png";
-// import iconShadow from "leaflet/dist/images/marker-shadow.png";
+import icon from "leaflet/dist/images/marker-icon.png";
+import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
-// import L from "leaflet";
+import L from "leaflet";
 
-// let DefaultIcon = L.icon({
-//   iconUrl: icon,
-//   shadowUrl: iconShadow,
-//   iconAnchor: [0, 0],
-// });
+let DefaultIcon = L.icon({
+  iconUrl: icon,
+  shadowUrl: iconShadow,
+  iconAnchor: [10, 35],
+});
 
-// L.Marker.prototype.options.icon = DefaultIcon;
+L.Marker.prototype.options.icon = DefaultIcon;
 
 import SectionContainer from "../ui/SectionContainer";
 
