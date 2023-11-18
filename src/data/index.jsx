@@ -15,6 +15,10 @@ import {
   FaGooglePay,
 } from "react-icons/fa";
 
+import organicFood from "./image/pizza-1.jpg";
+import expressDelivery from "./image/pizza-7.jpg";
+import unforgetableTaste from "./image/pizza-16.jpg";
+
 export const links = [
   { title: "Home", link: "/" },
   { title: "Menu", link: "/menu" },
@@ -27,19 +31,19 @@ export const services = [
     title: "Organic Food",
     description:
       "Pure and healthy organic food is our lifestyle. The products we consume has impact on out future and we do everything to keep the future healthy",
-    image: "./src/data/image/pizza-1.jpg",
+    image: organicFood,
   },
   {
     title: "Express Delivery",
     description:
       "Choose from a variety of express delivery services depending on your needs. Whether in a hurry to eat or have some plans tomorrow, we have got you covered",
-    image: "./src/data/image/pizza-7.jpg",
+    image: expressDelivery,
   },
   {
     title: "Unforgetable Taste",
     description:
       "Our goal is to provide our customers with excellent service, great taste and unforgettable experiences. This will be a mind-blowing experience for your taste buds",
-    image: "./src/data/image/pizza-16.jpg",
+    image: unforgetableTaste,
   },
 ];
 
