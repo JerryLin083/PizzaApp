@@ -28,8 +28,8 @@ const Cart = () => {
 
         <Total />
 
-        <div className="w-full text-center space-x-4 md:space-x-12 mt-4 pt-8 border-t border-stone-600">
-          <NavLink to="/menu" className="backButton">
+        <div className="w-full mt-4 pt-8 flexCenter gap-12 border-t border-stone-600">
+          <NavLink to="/menu" className="backButton hidden md:block">
             Back to menu
           </NavLink>
           <NavLink to="/order/new" className="orderButton">
