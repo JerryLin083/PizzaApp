@@ -1,5 +1,8 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+
 import "leaflet/dist/leaflet.css";
+import icon from "leaflet/dist/images/marker-icon.png";
+
 import SectionContainer from "../ui/SectionContainer";
 
 const Map = () => {
@@ -16,17 +19,17 @@ const Map = () => {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <Marker position={[25.0478, 121.5319]}>
+          <Marker position={[25.0478, 121.5319]} icon={icon}>
             <Popup>
               🍕 Jerry&apos;s pizza. <br /> Best pizza in the world.
             </Popup>
           </Marker>
-          <Marker position={[24.1469, 120.6839]}>
+          <Marker position={[24.1469, 120.6839]} icon={icon}>
             <Popup>
               🍕 Jerry&apos;s pizza. <br /> Best pizza in the world.
             </Popup>
           </Marker>
-          <Marker position={[22.9908, 120.2133]}>
+          <Marker position={[22.9908, 120.2133]} icon={icon}>
             <Popup>
               🍕 Jerry&apos;s pizza. <br /> Best pizza in the world.
             </Popup>
