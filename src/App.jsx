@@ -1,7 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import AppLayout, { loader as appLayoutLoader } from "./features/ui/AppLayout";
-import Error from "./features/ui/Error";
 import HomePage from "./features/Home/HomePage";
 import About from "./features/about/About";
 import Search, { action as searchAction } from "./features/search/Search";
@@ -15,12 +14,15 @@ import Order, { loader as orderLoader } from "./features/order/Order";
 import OrderForm, {
   action as orderFormAction,
 } from "./features/order/OrderForm";
+import PageNotFound from "./features/ui/Error";
+import Error from "./features/ui/Error";
 
 const App = () => {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <AppLayout />,
+      errorElement: <Error />,
       loader: appLayoutLoader,
       children: [
         {
@@ -72,7 +74,7 @@ const App = () => {
         },
         {
           path: "*",
-          element: <Error />,
+          element: <PageNotFound />,
         },
       ],
     },

@@ -17,7 +17,7 @@ import Input from "../ui/Input";
 import Button from "../ui/Button";
 import SectionContainer from "../ui/SectionContainer";
 import Title from "../ui/Title";
-import Empty from "../ui/Empty";
+import Empty from "../ui/PageNotFound";
 import Message from "../ui/Message";
 
 const OrderForm = () => {

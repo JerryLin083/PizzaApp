@@ -1,12 +1,26 @@
+import { useNavigate, useRouteError } from "react-router-dom";
+import SectionContainer from "./SectionContainer";
+import Title from "./Title";
+import Message from "./Message";
+import Button from "./Button";
+
 const Error = () => {
+  const error = useRouteError();
+  const navigate = useNavigate();
+
   return (
-    <div className="mt-56 text-center">
-      <h1 className="font-bold text-5xl">404</h1>
-      <h2 className="mt-8 font-bold text-2xl">This page is not available</h2>
-      <h4 className="mt-8 font-semibold ">
-        Sorry, we couldn&apos;t find the page you&apos;re looking for.
-      </h4>
-    </div>
+    <main className="mt-28">
+      <SectionContainer>
+        <Title>Error 🙄</Title>
+        <Message message={error.message} />
+
+        <div className="mt-12">
+          <Button type="primary" onClick={() => navigate("/")}>
+            &larr; Go Back
+          </Button>
+        </div>
+      </SectionContainer>
+    </main>
   );
 };
 

@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 
 import { getCart } from "./cartSlice";
-import Empty from "../ui/Empty";
+import Empty from "../ui/PageNotFound";
 import SectionContainer from "../ui/SectionContainer";
 import Title from "../ui/Title";
 import ListPattern from "../ui/ListPattern";
