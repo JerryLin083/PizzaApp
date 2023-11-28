@@ -16,29 +16,29 @@ import {
 } from "react-icons/fa";
 
 //services image
-import organicFood from "./image/pizza-1.jpg";
-import expressDelivery from "./image/pizza-7.jpg";
-import unforgetableTaste from "./image/pizza-16.jpg";
+import organicFood from "./image/pizza-1.webp";
+import expressDelivery from "./image/pizza-7.webp";
+import unforgetableTaste from "./image/pizza-16.webp";
 
 //meals image
-import margherita from "./image/Margherita.jpg";
-import pepperoni from "./image/Pepperoni.jpg";
-import cheese from "./image/Cheese.jpg";
-import veggie from "./image/Veggie.jpg";
-import meat from "./image/Meat.jpg";
-import BBQChicken from "./image/BBQ_Chicken.jpg";
+import margherita from "./image/Margherita.webp";
+import pepperoni from "./image/Pepperoni.webp";
+import cheese from "./image/Cheese.webp";
+import veggie from "./image/Veggie.webp";
+import meat from "./image/Meat.webp";
+import BBQChicken from "./image/BBQ_Chicken.webp";
 
 //about pic1
-import wineAndTable from "./image/about-wine.jpeg";
-import pizza from "./image/about-pizza.jpeg";
-import cutting from "./image/about-cutting.jpeg";
-import restaurant from "./image/about-restaurant.jpeg";
+import wineAndTable from "./image/about-wine.webp";
+import pizza from "./image/about-pizza.webp";
+import cutting from "./image/about-cutting.webp";
+import restaurant from "./image/about-restaurant.webp";
 
 //about pic2
-import reception from "./image/about-reception.jpeg";
-import bar from "./image/about-bar.jpeg";
-import server from "./image/about-server.jpeg";
-import fineDish from "./image/about-fine-dish.jpg";
+import reception from "./image/about-reception.webp";
+import bar from "./image/about-bar.webp";
+import server from "./image/about-server.webp";
+import fineDish from "./image/about-fine-dish.webp";
 
 export const links = [
   { title: "Home", link: "/" },

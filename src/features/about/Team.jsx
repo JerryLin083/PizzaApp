@@ -4,7 +4,7 @@ import Title from "../ui/Title";
 import SubTitle from "../ui/SubTitle";
 import SubText from "../ui/SubText";
 
-import join from "../../data/image/about-join.jpeg";
+import join from "../../data/image/about-join.webp";
 
 const Team = () => {
   return (

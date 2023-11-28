@@ -4,7 +4,7 @@ import Title from "../ui/Title";
 import SubTitle from "../ui/SubTitle";
 import SubText from "../ui/SubText";
 
-import office from "../../data/image/about-office.jpeg";
+import office from "../../data/image/about-office.webp";
 
 const Business = () => {
   return (

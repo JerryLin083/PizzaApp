@@ -10,11 +10,11 @@ export default {
         Playpen: ["Playpen Sans", "cursive"],
       },
       backgroundImage: {
-        rootBG: "url('/black_marble.jpg')",
-        homeBG: "url('/pizza_bg_black.jpg')",
-        restaurant: "url('/restaurant.png')",
-        restaurant2: "url('/restaurant-2.jpg')",
-        aboutPizza: "url('/about-pizza-cover.jpeg')",
+        rootBG: "url('/black_marble.webp')",
+        homeBG: "url('/pizza_bg_black.webp')",
+        restaurant: "url('/restaurant.webp')",
+        restaurant2: "url('/restaurant-2.webp')",
+        aboutPizza: "url('/about-pizza-cover.webp')",
       },
       backgroundColor: {
         transparent: "rgba(0,0,0,0.6)",
