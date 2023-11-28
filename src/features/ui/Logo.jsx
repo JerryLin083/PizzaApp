@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <Link to="/" className="flexCenter gap-4" onClick={toTop}>
       <img
-        src="/pizza-slice.png"
+        src="/pizza-slice.webp"
         alt="pizza logo"
         className="w-16 h-16 hover:rotate-45 transition-transform duration-500"
       />
