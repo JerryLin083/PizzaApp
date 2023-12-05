@@ -6,10 +6,9 @@ import {
   useNavigation,
 } from "react-router-dom";
 import { useSelector } from "react-redux";
-
 import supabase from "../../api/supabase";
-import { createUser, getUser } from "../user/userSlice";
-import store from "../../store";
+
+import { getUser } from "../user/userSlice";
 import Title from "../ui/Title";
 import SectionContainer from "../ui/SectionContainer";
 import Button from "../ui/Button";
@@ -71,27 +70,12 @@ export const action = async ({ request }) => {
   const formData = await request.formData();
   const { email, password } = Object.fromEntries(formData);
 
-  const {
-    data: { user },
-    error,
-  } = await supabase.auth.signInWithPassword({
+  const { error } = await supabase.auth.signInWithPassword({
     email,
     password,
   });
 
   if (error) return error.message;
-
-  //save user info in global state
-  store.dispatch(
-    createUser({
-      isAuth: user.role,
-      name: user.fullName,
-      email: user.email,
-      number: user.number,
-      address: user.address,
-    })
-  );
-
   history.go(-1);
 
   return null;
